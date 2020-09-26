@@ -1,0 +1,9 @@
+CREATE TABLE `car_management`.`car` (
+  `company` VARCHAR(200) NOT NULL,
+  `model` VARCHAR(145) NOT NULL,
+  `color` VARCHAR(45) NOT NULL,
+  `date_of_purchase` DATE NOT NULL,
+  `price` BIGINT NOT NULL,
+  `engine_capacity` VARCHAR(300) NOT NULL,
+  `licence_plate_number` VARCHAR(200) NOT NULL,
+  `seating_capacity` INT NOT NULL);
